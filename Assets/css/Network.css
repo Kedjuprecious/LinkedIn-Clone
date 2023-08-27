@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e6e1e1;
+}
+
+/* Nav bar */
+
+.form-control{
+    height: 25px;
+    background-color: #e6e1e1;
+}
+
+.search1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar{
+    height: 53px;
+    /* padding-top: 20px; */
+}
+
+.icon a{
+    margin-top: -10px;
+    /* display: flex; */
+}
+
+.me{
+    width: 20px;
+    height: 20px;
+}
+
+.navtext{
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.vertical{
+    border-left: 1px solid #e6e1e1;
+    height: 47px;
+    position: absolute;
+}
+
+.navwrapper{
+    max-width: 70%;
+    justify-content: center;
+    margin-right: 205px;
+}
+
+.premium{
+    width: 120px;
+}
+
+.prem{
+    font-size: 13px;
+    color: rgb(222, 26, 26);
+}
+
+/* Main */
+.row-wrapper{
+    justify-content: center;
+    max-width: 70%;
+}
+
+/* Column one */
+.location{
+    font-size: 10.6px;
+    font-weight: 700;
+}
+
+.network-icon{
+    font-size: 12px;
+}
+
+.number{
+    margin-left: 78px;
+}
+
+.name{
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.desc{
+    font-family: system-ui;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.navicon{
+    font-size: 10px;
+    float: right;
+    position: relative;
+    top: 9px;
+}
+
+.Ad{
+    position: relative;
+    left: 180px;
+} 
+
+.smtext{
+    font-size: 9px;
+}
+
+.people{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+.form{
+    height: 15px;
+    border: 2px solid #e6e1e1;
+    /* width: 5px; */
+}
+
+/* Second column */
+.b-words{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.image{
+    width: 50px;
+}
+
+.button{
+    width: 40px;
+}
+
+.ignore{
+    width: 40px;
+}
+
+.p-info{
+    width: 400px;
+}
+
+/* Card */
+.c-text{
+    font-size: 10.7px;
+}
+
+.follow{
+    font-size: 9px;
+}
+
+.people2{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%
+}
+
+.c-btn{
+    padding: 0 68px;
+}
+
+.c-image{
+    position: absolute;
+    top: 30px;
+    left: 6px;
+}
+
+.c-image1{
+    position: absolute; 
+    left: 20px; 
+    top: 170px;
+}
+
+.c-backgnd{
+    height: 70px;
+}
+
+.c-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.linkedIn{
+    font-size: 13px;
+}
+
+
+
+/* Column three */
+.profnav{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.colthree{
+    top: 15%;
+    right: 0;
+    position: fixed;
+    max-width: 193px;
+}
+
+.col3navtext{
+    font-size: 13px;
+}
+
+.navicon{
+    font-size: 11px;
+}
+
+.search2{
+    position: absolute;
+    left: 10px;
+    margin-top: 5px;
+}
+
+.lines1{
+    position: absolute;
+    right: 10px;
+}
+
+.fo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    width: 33px;
+    font-size: 10px;
+}
+
+.smstext{
+    font-size: 7.6px;
+}
+
+.smshead{
+    font-size: 10px;
+}
+
+.sms{
+    border-bottom: 1px #bdbbbb solid;
+}
+
+.peoplecontai{
+    width: 57px;
+}
+
+.ltext{
+    font-weight: 400;
+}
+
+.people1{
+    width: 40px;
+    border-radius: 50%;
+    font-size: 5px;
+}
+

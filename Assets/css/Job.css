@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e6e1e1;
+}
+
+/* Nav bar */
+
+.form-control{
+    height: 25px;
+    background-color: #e6e1e1;
+}
+
+.search1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar{
+    height: 53px;
+    /* padding-top: 20px; */
+}
+
+.icon a{
+    margin-top: -10px;
+    /* display: flex; */
+}
+
+.me{
+    width: 20px;
+    height: 20px;
+}
+
+.navtext{
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.vertical{
+    border-left: 1px solid #e6e1e1;
+    height: 47px;
+    position: absolute;
+}
+
+.navwrapper{
+    max-width: 70%;
+    justify-content: center;
+    margin-right: 205px;
+}
+
+.premium{
+    width: 120px;
+}
+
+.prem{
+    font-size: 13px;
+    color: rgb(222, 26, 26);
+}
+
+/* Main */
+.row-wrapper{
+    justify-content: center;
+    max-width: 70%;
+}
+
+/* Column one */
+.my-job{
+    list-style: none;
+}
+
+.job-icon{
+    color: grey;
+    font-size: 10px;
+}
+
+.desc{
+    font-family: system-ui;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.job-btn{
+    font-size: 11px;
+}
+
+.name{
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.location{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.clear{
+    width: 50px;
+}
+
+.muted{
+    font-size: 14px;
+}
+
+.smtext{
+    color: green;
+}
+
+.image{
+    width: 30px;
+}
+
+.company-logo{
+    width: 30px;
+}
+
+.company-text{
+    font-weight: 500;
+    font-size: 10px;
+    font-family: system-ui;
+}
+
+.linkedIn{
+    font-size: 13px;
+}
+
+.thumbs{
+    width: 50px;
+}
+
+.thumb{
+    width: 50px;
+}
+
+.bottom{
+    font-size: 13px;
+}
+
+/* Column three */
+.people{
+    width: 40px;
+    border-radius: 50%;
+    font-size: 5px;
+}
+
+.recruit{
+    background-color: rgb(242, 248, 251);
+}
+
+.texty{
+    font-size: 11px;
+    font-weight: 800px;
+}
+
+/* Column four */
+.profnav{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.colthree{
+    top: 15%;
+    right: 0;
+    position: fixed;
+    max-width: 193px;
+}
+
+.col3navtext{
+    font-size: 13px;
+}
+
+.navicon{
+    font-size: 11px;
+}
+
+.search2{
+    position: absolute;
+    left: 10px;
+    margin-top: 5px;
+}
+
+.lines1{
+    position: absolute;
+    right: 10px;
+}
+
+.fo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    width: 33px;
+    font-size: 10px;
+}
+
+.smstext{
+    font-size: 7.6px;
+}
+
+.smshead{
+    font-size: 10px;
+}
+
+.sms{
+    border-bottom: 1px #bdbbbb solid;
+}
+
+.peoplecontai{
+    width: 57px;
+}
+
+.ltext{
+    font-weight: 400;
+}

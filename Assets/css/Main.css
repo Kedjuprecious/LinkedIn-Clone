@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e6e1e1;
+}
+
+/* Nav bar */
+
+.form-control{
+    height: 25px;
+    background-color: #e6e1e1;
+}
+
+.search1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar{
+    height: 53px;
+    /* padding-top: 20px; */
+}
+
+.icon a{
+    margin-top: -10px;
+    /* display: flex; */
+}
+
+.me{
+    width: 20px;
+    height: 20px;
+}
+
+.navtext{
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.vertical{
+    border-left: 1px solid #e6e1e1;
+    height: 47px;
+    position: absolute;
+}
+
+.navwrapper{
+    max-width: 70%;
+    justify-content: center;
+    margin-right: 205px;
+}
+
+.premium{
+    width: 120px;
+}
+
+.prem{
+    font-size: 13px;
+    color: rgb(222, 26, 26);
+}
+
+/* Main */
+/* .columnwrapper{
+    width: 78%
+} */
+
+.img1{
+    height: 170px;
+    width: 100%;
+}
+
+.img2{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-top: 96px;
+    margin-left: 10px;
+}
+
+.name{
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc{
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.contact{
+    text-decoration: none;
+    color: #0077b5 ;
+    font-weight: 500;
+}
+
+.location{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.p-logo{
+    width: 20px;
+}
+
+.l-words{
+    font-size: 13px;
+}
+
+.show{
+    color: #6e6a6a;
+}
+
+.x{
+    font-family: 'FontAwesome';
+    color: #6e6a6a;
+    font-size: 12px;
+}
+
+.pen2{
+    float: right;
+}
+
+.pen1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    margin-right: 18px;
+    color: #0077b5;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+}
+
+.prohead{
+    font-size: 17px;
+}
+
+.prembtn{
+    background-color: rgb(228, 175, 110);
+    margin-left: 15px;
+}
+
+.user2{
+    width: 30px;
+}
+
+.row-wrapper{
+    justify-content: center;
+    max-width: 70%;
+}
+
+/* Column two */
+.lang{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ltext{
+    font-size: 11px;
+}
+
+.lhead{
+    font-size: 16px;
+}
+
+.hiring{
+    width: 227px;
+    height: 215px;
+}
+
+.people{
+   width: 40px;
+   border-radius: 50%;
+   font-size: 5px;
+}
+
+.peoplecontai{
+    width: 57px;
+}
+
+/* Column three */
+.profnav{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.colthree{
+    top: 15%;
+    right: 0;
+    position: fixed;
+    max-width: 193px;
+}
+
+.col3navtext{
+    font-size: 13px;
+}
+
+.navicon{
+    font-size: 11px;
+}
+
+.search2{
+    position: absolute;
+    left: 10px;
+    margin-top: 5px;
+}
+
+.lines1{
+    position: absolute;
+    right: 10px;
+}
+
+.fo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date{
+    width: 33px;
+    font-size: 10px;
+}
+
+.smstext{
+    font-size: 7.6px;
+}
+
+.smshead{
+    font-size: 12px;
+}
+
+.sms{
+    border-bottom: 1px #bdbbbb solid;
+}
+
+
+
+/* Responsiveness */
+@media screen and (max-width:1024px){
+    .colthree{
+        display: none;
+    }
+
+    .navwrapper{
+
+    }
+    
+    .coltwo{
+    }
+
+}

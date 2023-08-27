@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/Bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="/Assets/fonts/css/all.css">
+    <link rel="stylesheet" href="/Assets/css/Job.css">
+    <title>My-Job</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-white">
+
+    <div class="container navwrapper">
+
+      <!-- LinkedIn Logo -->
+      
+        <form class="d-flex">
+          <i class="fa-brands fa-linkedin text-primary fa-2x m-0" ></i>
+          <i class="fa-solid fa-magnifying-glass search1"></i>
+          <input class="form-control me-2 w-75 ms-1 mt-1" type="text" placeholder="   Search">
+        </form>
+      
+
+      <!-- Icons -->
+      <div class="navbar-expand-md pt-2">
+
+        <ul class="navbar-nav text-center">
+          <li class="nav-item icon">
+            <i class="fa-solid fa-house"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="/Main.html"><span class="navtext">Home</span></a>
+          </li>
+
+          <li class="nav-item icon">
+            <i class="fa-solid fa-users"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="/Pages/Network.html"><span class="navtext">My Network</span></a>
+          </li>
+
+          <li class="nav-item icon">
+            <i class="fa-solid fa-briefcase"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="/Pages/Job.html"><span class="navtext">Jobs</span></a>
+          </li>
+
+          <li class="nav-item icon">
+            <i class="fa-solid fa-comment-dots"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="/Pages/Job.html#messages"><span class="navtext">Messaging</span></a>
+          </li>
+
+          <li class="nav-item icon">
+            <i class="fa-solid fa-bell"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="#"><span class="navtext">Notifications</span></a>
+          </li>
+
+          <li class="nav-item icon me-3">
+            <img src="/Assets/Images/sir.jpg" alt="Me" class="me rounded-circle">
+            <a class="nav-link active text-dark" aria-current="page" href="#"><span class="navtext">Me<i class="fa-solid fa-caret-down"></i></span></a>
+          </li>
+
+          <li class="nav-item">
+            <small class="gx-3 vertical"></small>
+          </li>
+
+          <li class="nav-item icon ms-1">
+            <i class="fa-solid fa-list-ul"></i>
+            <a class="nav-link active text-dark" aria-current="page" href="#"><span class="navtext">For Business<i class="fa-solid fa-caret-down"></i></span></a>
+          </li>
+
+          <li class="nav-item icon">
+            <div class="container p-0 premium me-4"><a class="nav-link active text-dark ps-0" aria-current="page" href="#"><span class="navtext"><u class="prem">Try Premium for free</u></span></a></div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Main content -->
+  <main class="">
+
+    <!-- Column wrapper. container and row that englobes the three columns -->
+    <div class="container row-wrapper mt-3">
+        <!-- This row contains the three columns -->
+
+        <div class="row">
+
+            <!-- Column one, containing menu -->
+            <div class="col-lg-2 p-0">
+                <div class="container p-0 bg-white rounded p-3">
+                    <ul class="list-group my-job border-0">
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">My jobs</span></li>
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Job alerts</span></li>
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Demonstrate skills</span></li>
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Interview prep</span></li>
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Resume Builder</span></li>
+                        <li class="list-group-item job-icon border-0 p-0 mb-3"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Job seeker guidance</span></li>
+                        <li class="list-group-item job-icon border-0 p-0"><i class="fa-solid fa-briefcase"></i><span class="desc text-dark ms-2">Application settings</span></li>
+                    </ul>
+                </div>
+                <button class="btn btn-outline-primary btn-sm rounded-pill fw-bold mt-2 mb-3 text-primary job-btn px-4 py-2" type="button"><i class="fa-solid fa-paper-plane me-2"></i>Post a free job</button>
+            </div>
+
+            <!-- Column two, containing job offers -->
+            <div class="col-lg-6 ms-2 p-0">
+                <!-- First row -->
+                <div class="container p-0 d-flex bg-white rounded p-2">
+                    <div class="container p-0">
+                        <p class="name m-0 mb-2">Recent job searches</p>
+                        <p class="desc m-0">Software Engineer . <span class="smtext">2 new</span></p>
+                        <p class="text-muted location p-0 m-0">Cameroon</span>
+                    </div>
+
+                    <div class="container p-0 clear">
+                        <p class="text-muted location muted">Clear</p>
+                    </div>
+                </div>
+
+                <!-- Second row -->
+                <div class="container p-0 bg-white mt-2 rounded">
+                  <div class="container p-2">
+                    <div class="container p-0 ">
+                        <p class="name m-0">Jobs in Cameroon</p>
+                        <p class="text-muted location p-0 m-0">Cameroon</p>
+                    </div>
+
+                    <!-- Container containing the different containers having the information of each company -->
+                    <div class="container p-0 mb-3 bg-white mt-3">
+
+                      <!-- Container that will have the horizontal life after-->
+                      <div class="container p-0 bg-white">
+                        <!-- First company -->
+                        <div class="container p-0 d-flex">
+                          <div class="container p-0 image">
+                              <img src="/Assets/Images/square2.jfif" alt="Logo for company" class="company-logo">
+                          </div>
+                          <div class="container p-0 ms-2">
+                              <p class="text-primary company-text m-0 p-0">Data Analyst</p>
+                              <p class="company-text m-0 p-0">SiiRA World</p>
+                              <p class="text-muted location m-0 p-0">EMEA (Remote)</p>
+                              <p class="text-muted location m-0 p-0"><i class="fa-solid fa-comment-dots"></i>Actively recruiting</p>
+                              <p class="m-0"><span class="desc smtext">4 hours ago .</span> <i class="fa-brands fa-linkedin text-primary m-0 linkedIn"></i> <span class="text-muted location">Easy Apply</span></p>
+                          </div>
+                          <div class="container p-0 thumbs">
+                            <div class="container p-0 thumb ms-1">
+                              <i class="fa-solid fa-pencil "></i>
+                              <i class="fa-solid fa-pencil ms-2"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+
+                    <!-- Second -->
+                    <div class="container p-0 mb-3 bg-white">
+
+                      <!-- Container that will have the horizontal life after-->
+                      <div class="container p-0 bg-white">
+                        <!-- First company -->
+                        <div class="container p-0 d-flex">
+                          <div class="container p-0 image">
+                              <img src="/Assets/Images/square2.jfif" alt="Logo for company" class="company-logo">
+                          </div>
+                          <div class="container p-0 ms-2">
+                              <p class="text-primary company-text m-0 p-0">Data Analyst</p>
+                              <p class="company-text m-0 p-0">SiiRA World</p>
+                              <p class="text-muted location m-0 p-0">EMEA (Remote)</p>
+                              <p class="text-muted location m-0 p-0"><i class="fa-solid fa-comment-dots"></i>Actively recruiting</p>
+                              <p class="m-0"><span class="desc smtext">4 hours ago .</span> <i class="fa-brands fa-linkedin text-primary m-0 linkedIn"></i> <span class="text-muted location">Easy Apply</span></p>
+                          </div>
+                          <div class="container p-0 thumbs">
+                            <div class="container p-0 thumb ms-1">
+                              <i class="fa-solid fa-pencil "></i>
+                              <i class="fa-solid fa-pencil ms-2"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+
+                    <!-- Third -->
+                    <div class="container p-0 mb-3 bg-white">
+
+                      <!-- Container that will have the horizontal life after-->
+                      <div class="container p-0 bg-white">
+                        <!-- First company -->
+                        <div class="container p-0 d-flex">
+                          <div class="container p-0 image">
+                              <img src="/Assets/Images/square2.jfif" alt="Logo for company" class="company-logo">
+                          </div>
+                          <div class="container p-0 ms-2">
+                              <p class="text-primary company-text m-0 p-0">Data Analyst</p>
+                              <p class="company-text m-0 p-0">SiiRA World</p>
+                              <p class="text-muted location m-0 p-0">EMEA (Remote)</p>
+                              <p class="text-muted location m-0 p-0"><i class="fa-solid fa-comment-dots"></i>Actively recruiting</p>
+                              <p class="m-0"><span class="desc smtext">4 hours ago .</span> <i class="fa-brands fa-linkedin text-primary m-0 linkedIn"></i> <span class="text-muted location">Easy Apply</span></p>
+                          </div>
+                          <div class="container p-0 thumbs">
+                            <div class="container p-0 thumb ms-1">
+                              <i class="fa-solid fa-pencil "></i>
+                              <i class="fa-solid fa-pencil ms-2"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Bottom -->
+                  <div class="container p-0 text-center">
+                    <hr class="m-0">
+                    <p class="text-muted location bottom p-0 m-0 py-2">Show all </p>
+                  </div>
+
+                </div>
+
+                <!-- Third row -->
+                <!-- <div class="container p-0 bg-white mt-2 rounded">
+                  
+                  <div class="container p-2">
+                    <div class="container p-0 ">
+                        <p class="name m-0">Jobs in Cameroon</p>
+                        <p class="text-muted location p-0 m-0">Cameroon</p>
+                    </div>
+
+
+                  <div class="container p-0 d-flex mt-3">
+                    <div class="container p-0 image">
+                        <img src="/Assets/Images/square2.jfif" alt="Logo for company" class="company-logo">
+                    </div>
+                    <div class="container p-0 ms-2">
+                        <p class="text-primary company-text m-0 p-0">Data Analyst</p>
+                        <p class="company-text m-0 p-0">SiiRA World</p>
+                        <p class="text-muted location m-0 p-0">EMEA (Remote)</p>
+                        <p class="text-muted location m-0 p-0"><i class="fa-solid fa-comment-dots"></i>Actively recruiting</p>
+                        <p class="m-0"><span class="desc smtext">4 hours ago .</span> <i class="fa-brands fa-linkedin text-primary m-0 linkedIn"></i> <span class="text-muted location">Easy Apply</span></p>
+                    </div>
+                    <div class="container p-0 thumbs">
+                      <div class="container p-0 thumb ms-1">
+                        <i class="fa-solid fa-pencil "></i>
+                        <i class="fa-solid fa-pencil ms-2"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+            </div>
+
+
+            <!-- Column three, containing your information -->
+            <div class="col-lg-3 ms-2 p-0">
+              
+              <!-- Row one -->
+              <div class="container rounded bg-white p-0">
+
+                <!-- First one -->
+                <div class="container p-2">
+                  <p class="name m-0">Open to work</p>
+                  <p class="text-muted location p-0 m-0">Recommended based on your activity</p>
+                </div>
+
+                <!-- Second one -->
+                <div class="container p-0 recruit">
+                  <div class="container d-flex p-2">
+                    <p class="desc m-0">Show recruiters you're open to new job opportunities</p>
+                    <img src="/Assets/Images/sir.jpg" alt="" class="people">
+                  </div>
+                </div>
+
+                <!-- Third one -->
+                <div class="container p-2">
+                  <p class="m-0 texty">Get more InMails from recruiters when you are #OpenToWork - you control who sees this</p>
+                  <p class="m-0 text-muted location bottom mt-2">Get started</p>
+                </div>
+              </div>
+
+               <!-- Row one -->
+               <div class="container rounded bg-white p-0 mt-2">
+
+                <!-- First one -->
+                <div class="container p-2">
+                  <p class="name m-0">Job seeker guidance</p>
+                  <p class="text-muted location p-0 m-0">Recommended based on your activity</p>
+                </div>
+
+                <!-- Second one -->
+                <div class="container p-0 recruit">
+                  <div class="container d-flex p-2">
+                    <p class="desc m-0">I want to improve my resume</p>
+                    <img src="/Assets/Images/sir.jpg" alt="" class="people ms-5">
+                  </div>
+                </div>
+
+                <!-- Third one -->
+                <div class="container p-2 ">
+                  <p class="m-0 texty">Explore our curated guide of expert-led courses, such as how to improve your resume and grow your network, to help you land your next opportunity.</p>
+                  <p class="m-0 text-muted location bottom mt-2">Show more</p>
+                </div>
+              </div>
+
+              <div class="container p-0">
+
+                <div class="container p-0 text-center">
+                  <p class="m-0 text-muted location">About <span class="ms-3">Accessibility</span> <span class="ms-3">Help Center</span></p>
+                  <p class="m-0 text-muted location">Privacy & Terms <i class="fa-solid fa-caret-down"></i> <span class="ms-3">Ad Choices</span></p>
+                  <p class="m-0 text-muted location">Advertising <span class="ms-3">Business Services <i class="fa-solid fa-caret-down"></i></span></p>
+                  <p class="m-0 text-muted location">Get the LinkedIn app <span class="ms-3">More</span></p>
+                  <p class="m-0"><span class="location text-primary">LinkedIn<i class="fa-brands fa-linkedin text-primary m-0 linkedIn"></i></span> <span class="location">LinkedIn Corporation @ 2023</span></p>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+  </main>
+
+  <!-- Column Four -->
+  
+  <div class="container colthree p-0" id="messages">
+
+    <!-- Row one containing the nav -->
+    
+      <div class="col-md-12 d-flex top-rounded bg-white p-1">
+        <div class="container p-0 d-flex">
+          <img src="/Assets/Images/sir.jpg" alt="Profile picture" class="profnav">
+          <p class="desc m-0 p-0 col3navtext mt-1 ps-2">Messaging</p>
+        </div>
+        <div class="container p-0 d-flex mt-1 ps-4">
+          <i class="fa-solid fa-ellipsis navicon"></i>
+          <i class="fa-solid fa-pen-to-square ps-3 navicon"></i>
+          <i class="fa-solid fa-caret-down ps-3 navicon"></i>
+        </div>
+      </div>
+      <hr class="m-0 p-0 text-muted">
+      <div class="col-12 p-0 bg-white p-1">
+        <form class="d-flex">
+          <i class="fa-solid fa-magnifying-glass search2"></i>
+          <input class="form-control rounded" type="text" placeholder="      Search message" style="background-color: rgb(242, 248, 251); width: 100%; font-size: 13px;">
+          <i class="fa-solid fa-grip-lines lines1"></i>
+        </form>
+      </div>
+
+      <div class="col-md-12 fo ltext show desc bg-white px-3 pt-2 pb-1">
+        <p class="m-0 pb-0">Focused</p>
+        <p class="m-0 pb-0">Other</p>
+      </div>
+      <hr class="m-0 p-0">
+
+      <div class="col-md-12 bg-white">
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+        <div class="container d-flex p-1">
+          <div class="container p-0 peoplecontai"><img src="/Assets/Images/square1.jfif" alt="" class="people"></div>
+          <dic class="container p-0 d-flex">
+            <div class="container p-0 ps-1 sms">
+              <p class="desc m-0 p-0 smshead">Achimbi Gilbert</p>
+              <p class="ltext show desc p-0 m-0 smstext">LinkedIn Officer Hi there,</p>
+              <p class="ltext show desc p-0 m-0 smstext">Akombo! My name is Diane fro...</p>
+            </div>
+            <div class="container date p-0">Jul 29</div>
+          </dic>
+        </div>
+
+      </div>
+  </div>  
+    
+</body>
+</html>
